@@ -13,9 +13,3 @@ Describe the contents of the file(s) in this repository. You may wish to revisit
 ## Author
 
 Ivan Estropigan
-
-# SIMPLE DATA TYPES
-
-name = "Ivan"
-
-print = name
