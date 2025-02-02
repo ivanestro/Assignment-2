@@ -1,7 +1,6 @@
 """This is the assignment 2 for module 2."""
 
 # SIMPLE DATA TYPES
-
 name = "Ivan" 
 license = True
 current_year = 2025
