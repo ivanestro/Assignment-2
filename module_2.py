@@ -43,7 +43,6 @@ ontario = provinces_and_territories[3]
 print(ontario)
 
 # DICTIONARIES
-
 money = {'nickel': 0.05, 'dime': 0.10, 'quarter': 0.25}
 catch_money = money['quarter']
 print(type(money))
@@ -57,3 +56,23 @@ print(money)
 money['Loonie'] = 100 
 money['Toonie'] = 200
 print(money)
+
+# SETS
+even = set(range(2,20,2))
+print(type(even))
+print(even)
+
+multiple_five = set(range(5,20,5))
+print(multiple_five)
+
+new_set = even.union(multiple_five)
+print(new_set)
+
+same_value = even.intersection(multiple_five)
+print(same_value)
+
+difference = even.difference(multiple_five)
+print(difference)
+
+difference = multiple_five.difference(even)
+print(difference)
