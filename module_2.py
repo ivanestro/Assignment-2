@@ -39,6 +39,21 @@ both_list = new_list + numbers
 print(both_list)
 
 provinces_and_territories = ("MB", "AB", "BC", "ON")
-
 ontario = provinces_and_territories[3]
 print(ontario)
+
+# DICTIONARIES
+
+money = {'nickel': 0.05, 'dime': 0.10, 'quarter': 0.25}
+catch_money = money['quarter']
+print(type(money))
+print(catch_money)
+
+money['nickel'] = 5
+money['dime'] = 10
+money['quarter'] = 25
+print(money)
+
+money['Loonie'] = 100 
+money['Toonie'] = 200
+print(money)
